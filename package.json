@@ -1,10 +1,11 @@
 {
   "name": "validate-this-static-validators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of static validators to be optionally used with validate-this",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build":"./node_modules/.bin/babel src --out-dir dist"
   },
   "keywords": [
     "validation",
@@ -14,6 +15,7 @@
   "author": "rahicks26",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@types/jest": "^25.1.2",
