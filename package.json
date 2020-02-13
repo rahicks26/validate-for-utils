@@ -1,5 +1,5 @@
 {
-  "name": "@validate-this/static-validators",
+  "name": "validate-this-static-validators",
   "version": "1.0.0",
   "description": "A set of static validators to be optionally used with validate-this",
   "main": "src/index.js",
@@ -10,6 +10,7 @@
     "validation",
     "validate-this"
   ],
+  "private": false,
   "author": "rahicks26",
   "license": "ISC",
   "devDependencies": {
@@ -21,5 +22,16 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "jest": "^25.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahicks26/validate-this-static-validators.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahicks26/validate-this-static-validators/issues"
+  },
+  "homepage": "https://github.com/rahicks26/validate-this-static-validators#readme"
 }
