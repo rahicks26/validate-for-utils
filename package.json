@@ -1,0 +1,25 @@
+{
+  "name": "@validate-this/static-validators",
+  "version": "1.0.0",
+  "description": "A set of static validators to be optionally used with validate-this",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "validation",
+    "validate-this"
+  ],
+  "author": "rahicks26",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@types/jest": "^25.1.2",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0"
+  }
+}
