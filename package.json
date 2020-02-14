@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rahicks26/validate-this-static-validators.git"
+    "url": "git+https://github.com/rahicks26/validate-for-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/rahicks26/validate-this-static-validators/issues"
+    "url": "https://github.com/rahicks26/validate-for-utils/issues"
   },
-  "homepage": "https://github.com/rahicks26/validate-this-static-validators#readme"
+  "homepage": "https://github.com/rahicks26/validate-for-utils#readme"
 }
